@@ -1,0 +1,35 @@
+ul{
+
+        list-style: none;
+        margin-right : 100px;
+        text-align: right;
+}
+ul li{
+        display: inline-block;
+        margin :20px;
+        padding-right: 10px 0;
+}
+a{
+        text-decoration: none;
+        color: aliceblue;
+}
+#container{
+        width: 1000px;
+        margin: 0 auto;
+}
+nav{
+        width: 90%;
+        height: 80px;
+        background-color: rgb(20, 38, 197);
+      
+}
+section{
+       margin: 20px;
+}
+a:hover{
+        color: yellow;
+}
+div{
+        text-align: center;
+        
+} 

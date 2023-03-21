@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>숫자 맞추기 게임</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                text-align: center;
+            }
+            h1 {
+                margin-top: 50px;
+            }
+            input {
+                margin-top: 20px;
+                padding: 10px;
+                font-size: 18px;
+                width: 200px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+            }
+            button {
+                margin-top: 20px;
+                padding: 10px;
+                font-size: 18px;
+                border-radius: 5px;
+                border: none;
+                background-color: #2ecc71;
+                color: #fff;
+                cursor: pointer;
+            }
+            p {
+                margin-top: 20px;
+                font-size: 18px;
+                color: #f00;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>숫자 맞추기 게임</h1>
+        <p>1부터 100 사이의 숫자를 맞춰보세요!</p>
+        <input type="number" id="guess" placeholder="숫자를 입력하세요h">
+        <br>
+        <button onclick="checkGuess()">확인</button>
+        <script>
+            // 1부터 100 사이의 랜덤한 숫자를 선택합니다.
+            var answer = Math.floor(Math.random() * 100) + 1;
+
+            function checkGuess() 
+                // 사용자가 입력한 숫자를 가져옵니다.
+                var guess = document
+                    .getElementById("guess")
+                    .value;
+
+                // 입력한 값이 숫자가 아닌 경우, 빈 문자열인 경우, 1부터 100 사이가 아닌 경우 에러 메시지를 출력합니다.
+                if (isNaN(guess) || guess === "" || guess < body 1 || guess > 100) {
+                    alert("1부터 100 사이의 숫자를 입력하세요.");
+                    return;
+                }
+
+                // 사용자가 입력한 숫자와 정답을 비교합니다.
+                if (guess == answer) {
+                    // 맞았을 경우, 축하 메시지를 출력하고, 입력창과 확인 버튼을 비활성화합니다.
+                    alert("축하합니다! 정답을 맞췄습니다.");
+                    document
+                        .getElementById("guess")
+                        .disabled = true;
+                    document
+                        .getElementsByTagName("button")[0]
+                        .disabled = true;
+                }
+                
+                        else {
+                    // 틀렸을 경우, 더 큰지 작은지에 따라 힌트를 출력합니다.
+                    var hint = guess < script answer;
+                                 }
+        </script>
+    </body>
+</html>;
