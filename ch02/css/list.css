@@ -1,0 +1,30 @@
+ul li{
+    /* 메뉴 만들때 주로 사용함 */
+    list-style: none;
+    color: blue;
+    
+}
+
+ol li{
+    list-style: none;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    letter-spacing: 15px;
+}
+/* class 선택자는 . / id는 # 붙여줌 */
+li.menu1{
+    color: purple;
+}
+
+/* 글자 간격 */
+h2.hi1{
+    letter-spacing: 5px;
+}
+h2.hi2{
+    letter-spacing: 10px;
+}
+h2.hi3{
+    letter-spacing: -1px;
+}

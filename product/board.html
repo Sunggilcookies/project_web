@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>게시판입니다.</title>
+        <style>
+            table{
+                /* 바깥테두리 */
+                border : 2px solid #00ff00;
+                /* 선 통합 */
+                border-collapse: collapse;
+                width: 500px;
+                height: 50px;
+                
+            }
+            /* th = table head */
+            /* 두개 같이 하려면 이렇게 하면됨 */
+            /* 컴마(,) - 그룹 선택자 */
+            th, td{
+                /* 안쪽테두리 */
+                border: 1px solid #00ff00;
+                text-align: center;
+            }
+        
+            tr.head{
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>&nbsp;|
+            <a href="introduce.html">상품 소개</a>&nbsp|
+            <a href="board.html">질문/답변</a>
+        </nav>
+        <h2>게시판 목록</h2>
+        <table>
+            <tr class="head">
+                <th>번호</th>
+                <th>제목</th>
+                <th>작성자</th>
+                <th>작성말</th>
+            </tr>
+            <!-- 글인척 만들기 -->
+            <tr>
+                <td>1</td>
+                <td>레드향 가격을 알려주세요.</td>
+                <td>홍길동</td>
+                <td>2023-03-17</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>제주도도 배송이 되나요?</td>
+                <td>마라도</td>
+                <td>2023-03-15</td>
+            </tr>
+        </table>
+    </body>
+</html>

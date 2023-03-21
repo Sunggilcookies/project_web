@@ -1,0 +1,23 @@
+table {
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-collapse: collapse; */
+    border: 1px solid #0000ff;
+}
+
+td {
+    /* border-width : 1px;
+    border-style : solid;
+    border-color : #0000ff
+    padding: 10px; */
+    border: 1px dotted #ccc;
+    /* 셀의 너비와 높이 */
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+caption{
+    font-size: 20px;
+    margin-bottom: 10px;
+}

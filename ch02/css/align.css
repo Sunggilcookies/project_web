@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+}
+
+p {
+    text-align: justify;
+    line-height: 2;
+}
+a {
+    text-decoration: none;
+}
+/* 마우스 올렸을때 동작 */
+a:hover {
+    /* text-decoration: underline; */
+    color: blue;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+#container {
+
+    width: 500px;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 10px;
+
+}
+h1 {
+    margin-bottom: 10px;
+}
+p {
+    line-height: 2;
+    font-family: "Nanum Gothic Coding";
+}
+.redtext{ 
+        color:red;
+
+}

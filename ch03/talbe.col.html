@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                table, th, td{
+                       width: 400px;
+                       height: 50px;
+                        border: 1px solid black;
+                        text-align: center;
+                }
+
+
+        </style>
+
+</head>
+<body>
+        <!--2행 3열-->
+
+        <table>
+                <caption style="font-size:20px" > 부서관리대장
+
+                </caption>
+                <!--부서명 칼럼에 색상 지정-->
+               <colgroup>
+                        <col style="background: #eee">
+                        <col style="background: rgb(81, 173, 81)">
+                        <col style="background: green">
+                    
+                
+        
+                </colgroup>
+               
+               
+                <thead>
+                        <th>부서번호</th>
+                        <th>부서명</th>
+                        <th>부서인원</th>
+                </thead>
+                <tbody>
+                 <tr>
+                        <td rowspan="2">1</td>
+                        <!--새로합치기-->
+                        <td>관리부</td>
+                        <td>10</td>
+                 </tr>        
+                 <tr>
+                        
+                        <td>전산실</td>
+                        <td>6</td>
+                 </tr>        
+                </tbody>
+
+
+
+        </table>
+
+</body>
+</html>
