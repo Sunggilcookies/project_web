@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>목록 선택</title>
+    <style>
+        #container{
+            width: 800px;
+            margin: 30px auto;
+            
+        }
+        form{
+            width: 500px ;
+            margin: 0px auto;
+        }
+        ul li{
+            list-style: none;
+            line-height: 30px;
+        }
+        /* select */ 선택
+        #major{
+            width:200px;
+            height: 30px;
+                    }
+        #cid{
+            background-color: aliceblue;
+        }
+        div{
+            margin: 10px 0px ;
+        }
+        button[type="submit"], button[type="reset"]{
+            padding : 5px 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="container">
+    <form action="selec.jsp"method="post">
+        <fieldset>
+            <legend>수강 신청</legend>
+            <ul>
+                <li>
+                    <!-- 읽기전용 속성 : readonly -->
+                    <label for="cid">학과번호</label>
+                    <input type="text" id="cid" name="cid" value="101"
+                    readonly="readonly" >
+
+                </li>
+                <li>
+                    <label for="name">이름</label>
+                    <input type="text" id="name" name="name" 
+                    autofocus="autofocus">
+                    <!-- autofocus 커서가 깜빡임 -->
+
+                </li>
+                <li>
+                    <label for="major">학과</label>
+                    <select id="major" name="major">
+                        <option value="software">소프트웨어학과</option>
+                        <option value="mechanic">기계공학과</option>
+                        <option value="electric" selected>전기전자공학과</option>
+                        <option value="computer">컴퓨터공학과</option>
+                    </select>
+
+                </li>
+                
+
+            </ul>
+
+        </fieldset>
+        
+        <div>
+        <button type="submit">신청하기</button>
+        <button type="reset"> 취소하기</button>
+        </div>
+
+
+
+
+    </form>    
+
+    </div>
+    
+</body>
+</html>

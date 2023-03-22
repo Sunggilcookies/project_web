@@ -1,0 +1,45 @@
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    border:none;
+}
+
+div{
+    border: 1px solid #000;
+    width: 700px;
+    margin: 20px auto;
+    padding : 20px;
+    back
+}
+#discirption{
+    border-top-left-radius : 30px;
+    border-top-right-radius : 30px;
+    
+}
+p{line-height: 2;}
+ol li{line-height: 2;}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse
+    ;
+    width: 400px;
+    text-align: center;
+}
+caption{
+    margin-bottom: 10px;
+}
+th, td{
+    padding: 10px;
+}
+#package{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.bg{background: url(../images/tangerine.png);
+width: 500px;
+height: 400px;
+border-radius: 50%;
+border: none;
+margin-left: 20px;
+}
+    

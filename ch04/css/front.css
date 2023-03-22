@@ -1,0 +1,23 @@
+
+#container{
+    
+    width: 520px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+li{
+    list-style-type: none;
+    line-height: 2;
+}
+h4{
+    font-weight: bold;
+}
+
+form{
+    margin: auto;
+    
+}
+div{
+    margin-top: 200px;
+}

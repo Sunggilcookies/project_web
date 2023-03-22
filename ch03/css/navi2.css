@@ -1,3 +1,4 @@
+
 ul{
 
         list-style: none;
@@ -7,7 +8,11 @@ ul{
 ul li{
         display: inline-block;
         margin :20px;
-        padding-right: 10px 0;
+         padding: 10px 0;
+        /* line-height: 80px; */
+        /* margin: 0 20px; */
+       
+        /* 수직 정렬 - height와 같으면 가운데 정렬 (세로) */
 }
 a{
         text-decoration: none;
@@ -24,12 +29,13 @@ nav{
       
 }
 section{
-       margin: 20px;
+       margin: 20px
+       text;
 }
 a:hover{
         color: yellow;
 }
 div{
-        text-align: center;
+        text-align: left;
         
 } 
