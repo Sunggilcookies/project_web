@@ -1,0 +1,32 @@
+body {
+    background: #02233b;
+   
+}
+#container {
+    
+    
+    
+    background:rgb(255, 255, 255) url("../images/mic.png") no-repeat right 0px bottom 100px;
+    line-height:  2;
+    width: 700px;
+    height:800px;
+    padding: 20px;
+    /* background-attachment: fixed; */
+    margin: 0 auto;
+    background-size: 50%;
+    
+}
+h1 {
+    background-color: #004344;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+h2 {
+    text-align: center;
+    
+}
+li {
+    list-style: none;
+}
+h3, h4{ color:orange}
