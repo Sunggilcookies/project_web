@@ -1,0 +1,53 @@
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+
+
+form {width: 650px;
+   
+    margin: 0 auto;
+}
+ul li {
+    list-style: none;
+    margin: 20px;
+}
+/* input 필드 정렬 중요!!
+float 하기전에 크기부터 정해줄것 */
+
+
+#field1 label {
+    width: 110px;
+    float: left;
+}
+
+#filed1 input {
+    width: 200px;
+    height: 30px;
+}
+#field2 input {
+    padding  ;}
+
+fieldset {
+    margin-bottom: 20px;
+}
+/* 텍스트 필드 스타일 */
+input {
+    width: 250px;
+    height: 30px;
+    /* 드롭다운 메뉴 스타일 */
+}
+select {
+    width: 120px;
+    height: 30px;
+}
+/*버튼 스타일*/
+#button {
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+#button input{width: 150px; margin: 20px auto;}

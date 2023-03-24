@@ -15,8 +15,9 @@ header{
 header #logo{
     width: 200px; float:left; padding-left :20px;line-height: 80px;
 }
-header h1{
+header h1 a{
     color : white; margin: 0;
+    text-decoration: none;
 }
 h1:hover {
     color:yellow ;
@@ -32,15 +33,17 @@ nav ul{
     line-height: 80px;
     margin-right:50px;
 }
+section{
+    padding: 20px;
+}
 
 nav ul li{
     float:right;}
-nav ul li a{display: block; padding : 0 30px;}
-a:link, a:visited{
+nav ul li a{
+    display: block; padding : 0 30px;
     text-decoration:none;
-    color : #fff;
-    display: block;
-}
+    color : #fff;}
+
 
 
 
@@ -53,5 +56,5 @@ a.logo_a{
 
 a:hover{
     background-color: aqua;
-    color: white;
+    color: rgb(15, 48, 32);
 }

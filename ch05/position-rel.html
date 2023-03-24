@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dposition relative 속성</title>
+    <style>
+        .box1{
+            /* 너비 100, 높이 100 */
+            width: 100px;  padding:20px;
+            background-color: rgb(245, 241, 11);
+            float: left;
+            
+            
+        }
+        .box2{
+            /* 너비 100, 높이 100 */
+            width: 200px; padding:20px;
+            background-color: blue;
+            float: left;
+            margin-right: 10px;
+            position: relative;
+            top:30px;
+            right:100px;
+        }
+    </style>
+</head>
+<body>
+ <div class="box1">박스1</div>
+ <div class="box2">박스2</div>
+</body>
+</html>

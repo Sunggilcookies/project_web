@@ -1,0 +1,176 @@
+/*
+실수사항
+padding 설정할때 ,찍지말것 */
+/* 전체 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 16:9 화면상 1600px임 */
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+main {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* header 영역 스타일 */
+header {
+    height: 80px;
+    
+    background: rgb(255, 136, 0);
+}
+header #logo {
+    width: 300px;
+    float: left;
+    padding-left: 30px;
+    line-height: 80px;
+}
+#logo h1 a {
+    color: rgb(255, 236, 196);
+    text-decoration: none;
+    text-align: center;
+}
+nav {
+    width: 1000px;
+    float: right;
+    line-height: 80px;
+    text-align: right;
+    margin-right: 200px;
+}
+nav #topmenu {
+    list-style: none;
+}
+#topmenu li {
+    display: inline-block;
+    padding: 0 20px;
+}
+#topmenu li a {
+    color: white;
+    text-decoration: none;
+}
+#topmenu li a:hover {
+    color: #ecf83f;
+}
+#logo h1 a:hover {
+    color: rgb(201, 255, 120);
+}
+
+/* main 영역 스타일 */
+#contents section {
+    margin: 30px 10px;
+}
+section div {
+    margin: 10px;
+}
+section p {
+    line-height: 1.5;
+}
+/* line-height px 지정하지말것!. */
+/* section의 높이를지정해야함 */
+
+#activity,
+#healing {
+    height: 300px;
+}
+#activity img,
+#healing img {
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.schedule h3 {
+    margin: 10px;
+}
+.schedule ul li {
+    list-style-type: none;
+    line-height: 2;
+}
+.detail li {
+    text-align: center;
+}
+
+#sightseeing ul li {
+    list-style: square;
+    margin: 10px 30px;
+}
+#sightseeing ul li a {
+    text-decoration: none;
+    color: blue;
+}
+#sightseeing ul li a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+/* footer영역스타일 */
+footer {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    border-top: 2px solid gray;
+}
+footer #bottommenu {
+    list-style: none;
+    padding: 10px;
+}
+#bottommenu li {
+    border-right: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+}
+#bottommenu li a {
+    text-decoration: none;
+    color: black;
+}
+#bottommenu li :last-child {
+    border: none;
+}
+
+/* product 스타일 */
+#product p {
+    line-height: 2;
+}
+#product h2 {
+    margin-bottom: 10px;
+}
+#description {
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px 60px;
+    border: 1px dotted #333;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#description img {
+    margin: 0 10px, 10px,10px;
+    border-radius: 10px;
+}
+#receipe {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 60px;
+    border: 1px dotted rgb(0, 0, 0);
+}
+#receipe ol {
+    padding-left:  20px;
+    margin-right: 10px;
+}
+#receipe ol li {
+    line-height: 1.7;
+}
+#package {
+    margin: 30px auto;
+    padding: 20px 60px;
+    border: 1px dotted #333;
+    width: 800px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#package table,th,td{ border: 1px solid black; border-collapse: collapse;
+    padding: 10px 20px;}

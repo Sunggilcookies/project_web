@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index 속성</title>
+    <!-- z-index 큰숫자가 위로온다! -->
+    <style>
+        div{width: 100px; height: 100px;}
+        .box1{background: brown;position: relative;
+        top:50px; left: 80px;  border: 1px solid black; z-index: 1;}
+        .box2{background: rgb(3, 112, 255);position: absolute;
+        top:20px; left: 20px;  border: 1px solid black; z-index: 2;}
+        .box3{background: rgb(217, 255, 3);position: absolute;
+        top:80px; left: 10px;  border: 1px solid black; z-index: 1;}
+       
+        
+
+    </style><div>
+        
+
+    </div>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

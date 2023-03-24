@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>position 속성</title>
+        <style>
+            #wrap {
+                width: 500px;
+                height: 500px;
+                background-color: rgb(32, 3, 3);
+
+                position: relative;
+                top: 300px;
+                left: 500px;
+                margin-top: 200px;
+
+            }
+            .box {
+                width: 100px;
+                height: 100px;
+               
+                position: absolute;
+                background-color: rgb(228, 15, 15);
+            }
+            .rec1 {
+
+                top: 0;
+                right: 0;
+
+            }
+            .rec2 {
+
+                top: 0;
+                left: 0;
+
+            }
+            .rec3 {
+
+                bottom: 0;
+                right: 0;
+
+            }
+            .rec4 {
+
+                bottom: 0;
+                left: 0;
+
+            }
+            .rec5 {
+
+                top: 200px;
+                right: 200px;
+
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="wrap">
+            <!-- 두개의 클라스를 넣는 법 -->
+            <div class="box rec1"></div>
+            <div class="box rec2"></div>
+            <div class="box rec3"></div>
+            <div class="box rec4"></div>
+            <div class="box rec5"></div>
+            
+
+        </div>
+
+    </body>
+</html>
