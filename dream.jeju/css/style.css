@@ -1,6 +1,9 @@
 /*
 실수사항
 padding 설정할때 ,찍지말것 */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Nanum+Gothic+Coding&display=swap');
+
 /* 전체 스타일 */
 * {
     margin: 0;
@@ -33,6 +36,7 @@ header #logo {
     color: rgb(255, 236, 196);
     text-decoration: none;
     text-align: center;
+    font-family: Merienda;
 }
 nav {
     width: 1000px;
@@ -174,3 +178,33 @@ footer #bottommenu {
 }
 #package table,th,td{ border: 1px solid black; border-collapse: collapse;
     padding: 10px 20px;}
+/* q & a 스타일 */
+#board section h2{ margin:30px 10px; text-align: center;}
+#board #tbl_board { border:1.5px solid green; border-collapse: collapse;
+width: 800px; margin: 0 auto 50px;}
+#board #tbl_thead{background-color: beige;}
+#tbl_board td:nth-child(1), #tbl_board td:nth-child(3), 
+#tbl_board td:nth-child(4){text-align: center;}
+#tbl_board td:first-child{width: 50px;}
+.btn{text-align: right; margin-right: 200px;}
+.btn button{ padding : 10px 15px; margin-bottom:50px;}
+
+/* about_me */
+
+#show .about_me h1, .h11{ text-align: center; text-decoration: ;
+     margin:30px 5px; font-weight: bold; font-size: 50px; }
+     
+#show .about_me p {
+    text-align: left; margin-bottom: 20px; font-size: 20px;
+}
+#show .about_me span{font-size: larger; text-decoration: underline; font-style: italic; font-weight: 600;
+color: chocolate;}
+
+#show .mid .me{ display : inline-block; float: left; padding: 20px;
+}
+#show .mid p{
+    font-size: 18px;
+    float : left; line-height: 2; padding: 50px ;
+    
+}
+

@@ -1,0 +1,27 @@
+*{margin: 0; padding:0; box-sizing: border-box;}
+#container{
+    width: 1000px; margin: 30px auto; padding:10px;}
+
+h1{text-align: center; margin-top :30px;}
+.prod-list{list-style: none; text-align: center;}
+.prod-list li{
+    display : inline-block;
+    margin : 5px 10px; 
+    overflow: hidden;
+    float: left;
+    /* overflow hidden을 줄때 분모요소보다 크면잘린다. 사진이 부모요소고
+    설명글이 자식요소이기에 잘린다. */
+    position: relative;
+}
+.prod-list img{float: left;}
+.prod-list .caption{
+    width: 300px; height: 200px; position:absolute;
+    top :200px; background: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+
+.prod-list li:hover .caption{transform: translateY(-200px);}
+
+.prod-list .capttion ,h2 ,p{
+    color:#fff; line-height: 2;
+}
