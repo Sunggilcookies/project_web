@@ -187,24 +187,50 @@ width: 800px; margin: 0 auto 50px;}
 #tbl_board td:nth-child(4){text-align: center;}
 #tbl_board td:first-child{width: 50px;}
 .btn{text-align: right; margin-right: 200px;}
-.btn button{ padding : 10px 15px; margin-bottom:50px;}
+.btn button{ padding : 10px 15px; margin-bottom:50px;cursor: pointer;}
+
+/* register */
+
+#register h2{text-align: center; margin : 20px 0px ; }
+#register #tbl_write{
+    border: 2px solid rgb(138, 132, 132);
+    border-collapse: collapse; width: 800px; margin: 0 auto; }
+#tbl_write input[type="text"]{width: 800px; height: 25px;}
+#tbl_write textarea{width: 800px;}
+#tbl_write input[type="submit"],input[type="reset"]{
+    width: 100px; height:50px;}
+#tbl_write tr:last-child{ text-align: center; padding: 10px;}
+#register {
+    margin-bottom: 30px;
+}
+
+
+
+
 
 /* about_me */
 
-#show .about_me h1, .h11{ text-align: center; text-decoration: ;
+
+#profile .about_me h1, .h11{ text-align: center; ;
      margin:30px 5px; font-weight: bold; font-size: 50px; }
      
-#show .about_me p {
+#profile .about_me p {
     text-align: left; margin-bottom: 20px; font-size: 20px;
 }
-#show .about_me span{font-size: larger; text-decoration: underline; font-style: italic; font-weight: 600;
-color: chocolate;}
-
-#show .mid .me{ display : inline-block; float: left; padding: 20px;
-}
-#show .mid p{
-    font-size: 18px;
-    float : left; line-height: 2; padding: 50px ;
+#profile .about_me span{font-size: larger; text-decoration: underline; 
+    font-style: italic; font-weight: 600;
+    color: chocolate;}
     
-}
-
+#profile .mid ul li{
+        font-size: 18px; margin-left: 250px;
+         line-height: 1.2; padding: 20px 0px;
+         list-style: none;
+    }   
+#profile .mid p{margin-left: 250px; font-size: 15px; font-weight: bold;
+    background: linear-gradient(to right top, #ff0000, #0400ff);
+    color: transparent;}
+    /* -webkit-background-clip: text;}     */
+#profile .mid{display: inline-block;
+ width: 1200px;}
+#profile .mid .me { float:left}
+       
