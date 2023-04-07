@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션 3</title>
+    <style>
+     #one{
+        width: 100px; height: 100px;
+        background: red;
+        display: block;
+        float: left;
+        animation: one 3s infinite;
+     }  
+     #two{
+        
+        width: 100px; height: 100px;
+        background: green;
+        margin: 0px 30px;
+        display: inline-block;
+        animation: two 3s infinite;
+     } 
+
+    @keyframes one {
+        from{}
+        to{background :green;
+            
+            border-radius: 100%;}
+    }
+    @keyframes two {
+        from{}
+        to{background :rgb(247, 0, 0);
+        border-radius: 100%;}
+    }
+    </style>
+</head>
+
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    
+</body>
+</html>

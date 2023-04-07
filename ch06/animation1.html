@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation 속성</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background : rgb(0, 0, 0) ;
+            margin:50px;
+
+            /* 애니메이션 이름 정의
+            animation-name: change-box;
+            애니메이션 지속 시간 
+            animation-duration: 3s;
+            /* 애니메이션 횟수(infinite: 무한반복) 
+            animation-iteration-count: infinite; */
+            animation: change-box 3 2s;
+        }
+        /* keyframes 상태가 바뀌는 장면 */
+        @keyframes change-box {
+            from{
+                background: rgb(0, 0, 0);
+                border: 1px solid rgb(248, 19, 19) ;
+                
+            }
+            to{
+                background: #00f;
+                border: 100px solid rgb(0, 47, 255);
+                border-radius: 100%;
+               
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
