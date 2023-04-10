@@ -1,0 +1,288 @@
+@charset "utf-8";
+*{margin: 0;padding:0;box-sizing: border-box;}
+#container{width: 100%;}
+
+/*
+실수사항
+padding 설정할때 ,찍지말것 */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Nanum+Gothic+Coding&display=swap');
+
+/* 전체 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 16:9 화면상 1600px임 */
+ 
+
+main{
+
+    width:90%;
+    height: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+
+/* footer영역스타일 */
+footer {
+
+    width: 100%;
+    height: 100px;
+    border-top: 2px solid gray;
+    padding-left: 50px;
+    
+    
+}
+footer #bottommenu {
+    list-style: none;
+    padding: 10px; 
+    padding-left: px;
+    margin: 0 auto;
+}
+#bottommenu li {
+    display: inline-block;
+    margin: 0 ;
+    padding: 0 10px;
+}
+#bottommenu li a {
+    text-decoration: none;
+    color: black;
+}
+#bottommenu li :last-child {
+    border: none;
+}
+
+
+
+/* about_me */
+.about_me{ background: linear-gradient(to left, rgb(243, 220, 13), rgb(253, 253, 253));
+    border-right: 10px solid rgb(210, 250, 33) ;
+    border-radius: 5%;
+    border-style: none;
+    position: relative;
+    left: 20px;
+}
+
+#profile .about_me h1, .h11{ text-align: center; ;
+     margin:30px 5px; font-weight: bold; font-size: 40px; }
+     
+#profile .about_me p {
+    text-align: left; margin-bottom: 20px; font-size: 1em;
+}
+#profile .about_me span{font-size: larger; 
+     font-weight: 200;
+    color: rgb(73, 32, 3); }
+    
+#profile .mid ul li{
+        font-size: 1.2em; 
+         line-height: 2em; padding: 0.12em 0px;
+         list-style: none; background :#ffffff; border: 0.1px solid rgb(243, 201, 201) ;
+         
+    }   
+#profile .mid p{margin-left: 0px; 
+    background: linear-gradient(to right top, #ff0000, #0400ff);
+    color: transparent;}
+    /* -webkit-background-clip: text;}     */
+#profile .mid{display: inline-block;
+ width: 100%; margin-top: 10px;
+}
+#profile .mid .me { float:left; }
+#profile .skill ul li{
+    font-size: 20px; margin-left: 200px;
+    margin-top: 15px; text-align: right;
+     line-height: 25px; padding: 1px ;
+     list-style: none; float: right
+    }
+
+
+
+
+
+
+
+@media screen and (min-width:780px) {
+    header{height: 120px;}
+    #mail-pic img{height: 320px;}
+    section{height: 450px;}
+    
+
+main {
+   
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+/* footer영역스타일 */
+footer {
+    width: 100%;
+    height: 100%;
+    margin: 400px 0 0 0px ;
+    border-top: 2px solid gray;
+    padding-left: 50px;
+}
+footer #bottommenu {
+    list-style: none;
+    padding: 10px; 
+    padding-left: 200px;
+    margin: 0 auto;
+}
+#bottommenu li {
+    border-right: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+    margin: 0 ;
+    padding: 0 10px;
+}
+#bottommenu li a {
+    text-decoration: none;
+    color: black;
+}
+#bottommenu li :last-child {
+    border: none;
+}
+
+
+
+/* about_me */
+
+
+#profile .about_me h1, .h11{ 
+    position: relative; right: 110px; 
+    line-height: 90px;
+    text-align: center; ;
+     margin: 25px; margin-bottom: 30px; font-weight: bold; font-size: 50px; }
+     
+#profile .about_me p { 
+    text-align: left; line-height: 30px; margin-bottom: 20px; font-size: 20px;
+}
+#profile .about_me span{font-size: larger;  
+    font-style: italic; line-height: 50px; font-weight: 600;
+    color: rgb(29, 28, 26);}
+    
+#profile .mid ul li{ 
+        font-size: 18px; margin-left: 250px;
+         line-height: 1.2; padding: 20px 0px;
+         list-style: none;
+    }   
+#profile .mid p{margin-left: 250px; font-size: 15px; font-weight: bold;
+    background: linear-gradient(to right top, #ff0000, #0400ff);
+    color: transparent;}
+    /* -webkit-background-clip: text;}     */
+#profile .mid{display: inline-block; margin-left :40px ;
+ width: 1200px;}
+#profile .mid .me { float:left ;
+margin-top: 20px;}
+
+#profile .skill ul li{
+    
+    font-size: 18px; margin-left: 50px;
+     line-height: 2.5em; padding-right: 400px;
+     list-style: none; float : left;
+ 
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+    
+
+
+@media screen and (min-width:1200px){
+    
+    #mail-pic img{height: 320px;}
+    section{height: 350px;}
+    
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+/* footer영역스타일 */
+footer {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0 0 200px ;
+    border-top: 2px solid gray;
+    padding-left: 50px;
+}
+footer #bottommenu {
+    list-style: none;
+    padding: 10px; 
+    padding-left: 200px;
+    margin: 0 auto;
+}
+#bottommenu li {
+    border-right: 1px solid rgb(32, 26, 26);
+    display: inline-block;
+    margin: 0 ;
+    padding: 0 10px;
+}
+#bottommenu li a {
+    text-decoration: none;
+    color: black;
+}
+#bottommenu li :last-child {
+    border: none;
+}
+
+
+
+/* about_me */
+
+
+#profile .about_me h1, .h11{ text-align: center; ;
+     margin:30px 5px; font-weight: bold; font-size: 50px; }
+     
+#profile .about_me p {
+    text-align: left; margin-bottom: 20px; font-size: 20px;
+}
+#profile .about_me span{font-size: larger;  
+    font-style: italic; font-weight: 600;
+    color: chocolate;}
+    
+#profile .mid ul li{
+        font-size: 18px; margin-left: 250px;
+         line-height: 1.2; padding: 20px 0px;
+         list-style: none;
+    }   
+#profile .mid p{margin-left: 250px; font-size: 15px; font-weight: bold;
+    background: linear-gradient(to right top, #ff0000, #0400ff);
+    color: transparent;}
+    /* -webkit-background-clip: text;}     */
+#profile .mid{display: inline-block;
+ width: 1200px;}
+#profile .mid .me { float:left}
+#profile .skill ul li{
+    font-size: 18px; margin-left: 50px;
+     line-height: 1.2em; padding: 20px 200px;
+     list-style: none; float : left;
+    text-align: left; display: inline-block;}
+
+
+
+
+
+
+
+
+
+    
+}
+
