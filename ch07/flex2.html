@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">                       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        #wrap{
+            width: 300px;
+            height: 300px;
+            border:1px solid black;
+            display: flex;
+            
+            flex-direction : row;
+            /* 주축 : 가로, 순서: 왼쪽에서 오른쪽  */
+            /*가로방향 flex-direction : row; */
+            /* 주축 가로 순서: 오른쪽에서 왼쪽으로 */
+            /*가로 역방향 flex-direction : row-reverse; /
+                        
+            /* 세로바얗으으로 배치 flex-direction : column-reverse; */
+            /* <세로역방향> */
+            /* flex-direction : column; */
+
+        }
+        #wrap div{
+            flex:1;
+            
+            /* -ms-flex: 1; IE 10 지원 */
+            }
+            
+    </style>
+</head>
+<body>
+    <h1>flex 속성</h1>
+    <div ID="wrap">
+        <div style="background: coral;"><A>,</A>div>
+        <div style="background: rgb(25, 236, 208);">B</div>
+        <div style="background: rgb(23, 248, 109);">C</div>>
+        <div style="background: rgb(112, 196, 3);">D</div>
+        <div style="background: rgb(24, 66, 131);">E</div>
+        <div style="background: rgb(24, 66, 131);">F</div>
+        <div style="background: #be16f1;">RED</div>
+        
+    </div>
+</body>
+</html>
